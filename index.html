@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1>Рандомайзер</h1>
+        <div class="wrapper">
+        
+            <div class="input-wrap">
+                <form action="#" name="form">
+                <input placeholder="Min" autofocus
+                name="minimum" autocomplete="off" type="number" id="min">
+                <input placeholder="Max" name="maximum" autocomplete="off" type="number" id="max">
+                </form>
+                
+            </div>
+            <div class="button-num">
+                <button id="btn" onclick="Random()">Рандом</button>
+                <div class="random">
+                    <p>Ваше число</p>
+                    <strong  class="random-number"></strong>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>

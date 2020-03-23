@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    margin: auto;
+
+}
+h1{
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 54px;
+    color: rgb(59, 59, 59);
+    margin: 0;
+    margin-bottom: 15px;
+}
+.wrapper{
+    min-width: 350px;
+    border-radius: 5px;
+    min-height: 230px;
+    background: #0f132e;
+    justify-content: center;
+    display: grid;
+    position: relative;
+}
+#btn{
+    width: 150px;
+    height: 50px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: rgb(14, 14, 14);
+    cursor: pointer;
+    background:#ffb700;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 18px;
+}
+
+input{
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 24px;
+    font-family: Roboto;
+}
+input::placeholder{
+    padding-left: 15px;
+}
+.button-num{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.random-number{
+    font-size: 35px;
+    font-family: Roboto;
+}
+.random{
+    position: absolute;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 105px;
+    height: 248px;
+    margin-top: -1px;
+    color: #fff;
+}
+.random p{
+    font-family: Roboto;
+}
